@@ -12,3 +12,9 @@ function findOutlier(integers){
     
     return odds.length == 1 ? odds[0] : evens[0]
   }
+
+//   Dubstep KYU 6
+
+function songDecoder(song){
+    return song.replace(/WUB/g, " ").replace(/\s+/g, " ").trim()
+  }
