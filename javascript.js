@@ -24,3 +24,10 @@ function songDecoder(song) {
 function filter_list(l) {
   return l.filter( element => Number.isInteger(element))
 }
+
+// Sum of two lowest positive integers
+
+function sumTwoSmallestNumbers(numbers) {  
+  const sorted = numbers.sort((a, b) => a - b)
+  return sorted[0] + sorted[1]
+}
